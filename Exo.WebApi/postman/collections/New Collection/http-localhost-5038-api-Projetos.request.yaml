@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://localhost:5038/api/Projetos
+description: ""
+url: http://localhost:5038/api/Projetos/4
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"id\": 4,\r
+
+    \  \"nomeDoProjeto\": \"Projeto Atividade C Atualizado\",\r
+
+    \  \"area\": \"Tecnologia da Informação\",\r
+
+    \  \"status\": true\r
+
+    }\r\n"
+order: 1000
